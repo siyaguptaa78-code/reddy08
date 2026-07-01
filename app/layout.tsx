@@ -4,8 +4,15 @@ import Script from "next/script";
 import "./globals.css";
 import { SITE_CONFIG } from "@/config/constants";
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
-const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair" });
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+});
+
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+  variable: "--font-playfair",
+});
 
 export const metadata: Metadata = {
   title: `${SITE_CONFIG.brand.name} – Official ID | Get ${SITE_CONFIG.brand.name} Book ID Online`,
@@ -47,7 +54,7 @@ export default function RootLayout({
         {/* Google Search Console Verification */}
         <meta
           name="google-site-verification"
-          content="BVhrPu1_IgUzq9a4iFZa_D9WN9OnlrLXgyflYbV-vpo"
+          content="qhNWrJlVeTu3NWiOpXyn2Om-YhOIeQEjcPkkRyUBWKI"
         />
 
         {/* Google Tag Manager */}
