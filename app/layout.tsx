@@ -25,6 +25,9 @@ export const metadata: Metadata = {
     "IPL Betting ID",
     "Online Betting India",
   ],
+  verification: {
+    google: "hFfxBfILUSGpJI1enrmtV4ihqkUeKzyfznoxy8lSmOA",
+  },
   openGraph: {
     title: `${SITE_CONFIG.brand.name} – Official ID`,
     description: SITE_CONFIG.description,
